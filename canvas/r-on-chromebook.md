@@ -1,9 +1,11 @@
-
 *   [Install Linux on ChromeOS](https://chromeos.dev/en/linux/setup)
 *   Follow instructions on [this StackOverflow
     answer](https://stackoverflow.com/a/49620964/1939576) (but see my comment
-    at the end of that answer).  See below for full list of the commands we used.
+    at the end of that answer).  See the appendix below for full list of the
+    commands we used.
 *   Run command `rstudio` from the terminal.  Wait.
+
+Thanks to Eleanor Woolley for help testing this procedure.
 
 ## More notes
 
@@ -13,7 +15,7 @@
     / RStudio](https://superuser.com/a/1506916/1321158).  We actually did:
 
     ```
-    cd ~
+    cd
     ln -s /mnt/chromeos/MyFiles
     ```
 
@@ -23,6 +25,8 @@
 ## Appendix: commands we used to install RStudio
 
 These come from the StackOverflow post above, with a couple of tweaks.
+
+Start the Linux terminal.  Copy/paste the following:
 
 ```
 # Update, cleanup package listings and installs.
