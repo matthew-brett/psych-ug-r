@@ -26,7 +26,8 @@ Thanks to Eleanor Woolley for help testing this procedure.
 
 These come from the StackOverflow post above, with a couple of tweaks.
 
-Start the Linux terminal.  Copy/paste the following:
+Start the Linux terminal.  Copy/paste the following, line by line (pressing
+Return after each line):
 
 ```
 # Update, cleanup package listings and installs.
