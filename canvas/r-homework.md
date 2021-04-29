@@ -1,21 +1,36 @@
-Like your first homework, this exercise uses the R notebook.
+Like our Zoom session exercises, this exercise uses the R notebook.
+
+## Note - working together
+
+Please do *not* share answers with anyone else, and do not work with anyone
+else on this homework.
+
+Note that we do not use TurnitIn on this homework, but we do other plagiarism
+checks.
+
+## Completing the exercise
+
+You have as long as you want until the due date to work on this homework; you
+can search the web and the R documentation for help.
 
 You can do the exercise on your own computer, or on the [R in the
 cloud](../pages/R in the cloud) system.
+
 
 ## On your own computer
 
 First, [install R on your computer](../pages/installing-r-on-your-computer).
 
 Next go to [this
-link](https://github.com/matthew-brett/rodent_survey/archive/master.zip) to
+link](https://github.com/uob-cfd/rodents/archive/master.zip) to
 download a Zip file with the exercise files.
 
 *Unpack the Zip file* to some sensible place on your computer, such as your
-Desktop.  *Please don't forget to unpack the zip file*.  This is especially
-easy to forget on Windows.  On Windows, make sure, when you open the Zip file,
-that you run "Extract All" on the Zip file to extract its contents, and you
-then use the extracted files.
+Desktop.  See [extracting exercises](../pages/extracting-exercises) for more
+detail. In particular, *please don't forget to unpack the zip file*.  This is
+especially easy to forget on Windows.  On Windows, make sure, when you open the
+Zip file, that you run "Extract All" on the Zip file to extract its contents,
+and you then use the extracted files.
 
 Open RStudio, and then use the File - Open File ... option to open the `rodent_survey.Rmd` file.  This is an R notebook.
 
@@ -30,12 +45,12 @@ Submit the saved `rodent_survey.Rmd` file here on Canvas.
 Click on the link below to go to the exercise in the [R in the
 cloud](../pages/R in the cloud) system.
 
-[Homework 2 exercise
-link](https://uobhub.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fmatthew-brett%2Frodent_survey&urlpath=/rstudio)
+[Homework exercise
+link](https://uobhub.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fuob-cfd%2Frodents&urlpath=/rstudio)
 
-You will be working on the file `rodent_survey.Rmd` in the `rodent_survey`
-directory.  See [Work on exercise in
-R cloud](../pages/work-on-exercise-in-r-cloud) for the steps to open this file.
+You will be working on the file `rodent_survey.Rmd` in the `rodents` directory.
+See [Work on exercise in R cloud](../pages/work-on-exercise-in-r-cloud) for the
+steps to open this file.
 
 Read the instructions in the `rodent_survey.Rmd` notebook and follow them, to
 fill in the notebook.
@@ -48,7 +63,7 @@ R cloud](../pages/download-from-r-cloud), and submit the notebook here.
 
 ## Problems with the exercise when working on your own computer
 
-Some of you are getting the following error message, when you run the chunk with the code `gender_data <- read.csv('rodent_survey_18p2.csv')`:
+Some of you are getting the following error message, when you run the chunk with the code `surveys <- read.csv('rodent_survey_18p2.csv')`:
 
 ```
 cannot open file 'rodent_survey_18p2.csv': No such file or directoryError in file(file, "rt") : cannot open the connection
@@ -75,24 +90,6 @@ folder.  But, if you want to be super-sure, then copy the
 `rodent_survey_18p2.csv` file from its original location to the folder
 containing your newly downloaded copy of the notebook (such as `Downloads`),
 and try running the notebook again.
-
-### Unclear instructions for percentage table
-
-The instructions for the question asking for the percentage table are unclear. The instructions that you have are:
-
-```r
-#- Calculate a table giving the percentage of each species, including Krats
-#- (species DS) in each plot type.  The values should sum to 100 across each
-#- row of your table.
-```
-
-To be more clear, your table should show percentages for *each species
-including Krats (species DS)* for *each plot type*.
-
-Also - this is a designed to be a hard question to make you:
-
-* Work out for yourself how to use the `prop.table` function correctly;
-* Think how you might convert the proportions table to percentages.
 
 ## Any other problems, on your computer, or on the cloud
 
