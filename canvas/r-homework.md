@@ -1,4 +1,4 @@
-Like our Zoom session exercises, this exercise uses the R notebook.
+This assessment counts for 50% of your final course mark.
 
 ## Note - working together
 
@@ -10,12 +10,13 @@ checks.
 
 ## Completing the exercise
 
+Like our Zoom session exercises, this exercise uses the R notebook.
+
 You have as long as you want until the due date to work on this homework; you
 can search the web and the R documentation for help.
 
-You can do the exercise on your own computer, or on the [R in the
-cloud](../pages/R in the cloud) system.
-
+You have the option do to the exercise on your own computer, or on the [R in
+the cloud](../pages/R in the cloud) system.
 
 ## On your own computer
 
