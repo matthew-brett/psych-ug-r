@@ -60,3 +60,10 @@ To go to the exercise, follow this link:
 
 Then use the File menu to navigate to the `census_factors` folder, and open the
 `census_factors.Rmd` notebook.
+
+
+## Solutions
+
+Solution to `vectors.Rmd` notebook: [vectors.Rmd](../file_contents/course%20files/r_data_analysis/vectors_solution.Rmd)
+
+Solution to `census_factors.Rmd` notebook: [census_factors_solution.Rmd](../file_contents/course%20files/r_data_analysis/census_factors_solution.Rmd)
