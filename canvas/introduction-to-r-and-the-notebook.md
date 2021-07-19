@@ -51,3 +51,10 @@ To go to the exercise, follow this link:
 
 Then use the File menu to navigate to the `variables_etc` folder, and open the
 `variables_etc.Rmd` notebook.
+
+## Solutions
+
+See the [screencast
+video](https://bham.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a127239f-4ff6-4eb7-8e1b-ad1a00f6e4ad)
+for discussion of the exercises at the end of the `variables_etc.Rmd`
+notebook.
